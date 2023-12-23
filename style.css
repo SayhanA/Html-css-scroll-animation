@@ -21,6 +21,41 @@ h3{
 
 img {
     border-radius: 10px;
+    animation: flde-in linear;
+    animation-timeline: view();
+}
+
+/* @keyframes flde-in {
+    from{
+        scale: 1;
+        opacity: 1;
+    }
+    to{
+        scale: 0.8;
+        opacity: 0;
+    }
+} */
+@keyframes flde-in {
+    0%{
+        scale: 0.8;
+        opacity: 0;
+    }
+    25%{
+        scale: 1;
+        opacity: 1;
+    }
+    45%{
+        scale: 1;
+        opacity: 1;
+    }
+    75%{
+        scale: 1;
+        opacity: 1;
+    }
+    100%{
+        scale: 0.8;
+        opacity: 0;
+    }
 }
 
 button{
